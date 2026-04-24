@@ -1,15 +1,14 @@
-# Backend
-backend/src/main/resources/application.properties
-backend/target/
+# Backend build folder - never commit this
+neuro/target/
 
 # Frontend
-frontend/node_modules/
-frontend/dist/
+client/node_modules/
+client/dist/
 
 # Python
-neural-engine/__pycache__/
-neural-engine/venv/
-neural-engine/.env
+neuro-ai-engine/__pycache__/
+neuro-ai-engine/venv/
+.venv/
 
 # OS
 .DS_Store
