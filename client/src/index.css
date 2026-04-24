@@ -1,0 +1,43 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 1. Force the background of the whole app */
+.dark body {
+  background-color: #09090b !important; /* zinc-950 */
+  color: #f4f4f5 !important;           /* zinc-100 */
+}
+
+/* 2. Force all your 'bg-white' cards to turn into 'zinc-900' */
+.dark .bg-white {
+  background-color: #18181b !important; /* zinc-900 */
+  border-color: #27272a !important;     /* zinc-800 */
+}
+
+/* 3. Force dark text to go light */
+.dark .text-zinc-900, .dark .text-zinc-800 {
+  color: #f4f4f5 !important;
+}
+
+/* global thin, nice scrollbars */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0,0,0,0.3) transparent;
+}
+
+/* WebKit browsers */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+}
+
+
+
