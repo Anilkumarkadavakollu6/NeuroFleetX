@@ -1,0 +1,16 @@
+# Backend
+backend/src/main/resources/application.properties
+backend/target/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Python
+neural-engine/__pycache__/
+neural-engine/venv/
+neural-engine/.env
+
+# OS
+.DS_Store
+Thumbs.db
